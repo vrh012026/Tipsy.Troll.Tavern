@@ -12,20 +12,15 @@ const ingredienser = [
 const knapp = document.getElementById("avslør-knapp");
 const liste = document.getElementById("ingrediens-liste");
 
-knapp.addEventListener("click", function () {
+function avslørIngredienser() {
 
-    // Loop som lager et listeelement for hver ingrediens
-    ingredienser.forEach(function (ingrediens) {
-        const listeelement = document.createElement("li");
-        listeelement.textContent = ingrediens;
-        liste.appendChild(listeelement);
-    });
+    for (let i = 0; i < ingredienser.length; i++) {
+        liste.innerHTML += "<li>" + ingredienser[i] + "</li>";
+    }
 
-    // DOM-manipulasjon, vis listen og skjul knappen
     liste.style.display = "block";
-    knapp.style.display = "none";
-
-});
+    knapp.style.visibility = "hidden";
+}
 
 
 // <section id="seksjon-3-om-oss">
@@ -41,11 +36,14 @@ const grunner = [
 
 const grunnListe = document.getElementById("grunner-liste");
 
-grunner.forEach(function (grunn) {
-    const listeelement = document.createElement("li");
-    listeelement.textContent = grunn;
-    grunnListe.appendChild(listeelement);
-});
+for (let i = 0; i < grunner.length; i++) {
+    grunnListe.innerHTML +=  "<li>" + grunner[i] + "</li>";
+}
+
+
+
+
+
 
 
 //<section id="seksjon-4-kontakt">
