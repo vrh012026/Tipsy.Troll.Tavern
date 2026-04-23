@@ -1,0 +1,115 @@
+#seksjon-1-velkommen-bilde {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#seksjon-1-velkommen-bilde img {
+    width: 100%;
+    max-width: 800px;
+}
+
+h2 {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    font-size: 2.0rem;
+    color: #e8c97a;
+}
+
+p {
+    font-size: 1.6rem;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    color: #c4a35a;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0d0802;
+    background-image: url("Bakgrunnsbilde.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #e8c97a;
+    font-family: Georgia, serif;
+}
+
+header {
+    width: 100%;
+    background-color: rgba(10, 5, 0, 0.95);
+    border-bottom: 2px solid #8b5e2a;
+    padding: 20px 40px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    margin-top: 12px;
+}
+
+nav a {
+    color: #c4a35a;
+    text-decoration: none;
+}
+
+section {
+    width: 100%;
+    padding: 60px 40px;
+    text-align: center;
+    border-bottom: 1px solid #3d2a0f;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+section img {
+    max-width: 600px;
+    width: 100%;
+    border: 2px solid #8b5e2a;
+}
+
+footer {
+    text-align: center;
+    padding: 24px;
+    background-color: rgba(10, 5, 0, 0.95);
+    border-top: 2px solid #8b5e2a;
+    color: #7a5a30;
+}
+
+#skjema-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    margin-top: 24px;
+}
+
+#navn-felt, #melding-felt {
+    width: 500px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid #8b5e2a;
+    color: #e8c97a;
+}
+
+#melding-felt {
+    height: 120px;
+}
+
+#avslør-knapp, #send-knapp {
+    color: #e8c97a;
+    background-color: transparent;
+    border: 1px solid #8b5e2a;
+    padding: 8px 20px;
+    cursor: pointer;
+    margin-top: 24px;
+}
+
+
