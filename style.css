@@ -32,11 +32,11 @@ p {
 }
 
 body {
-    background-color: #0d0802;
-    background-image: url("Bakgrunnsbilde.png");
-    background-size: cover;
+    background-image: url("bakgrunn.fireflies.png");
     background-repeat: no-repeat;
+    background-position: center;
     background-attachment: fixed;
+    background-size: cover;
     color: #e8c97a;
     font-family: Georgia, serif;
 }

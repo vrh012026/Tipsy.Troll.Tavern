@@ -17,8 +17,7 @@ function avslørIngredienser() {
     for (let i = 0; i < ingredienser.length; i++) {
         liste.innerHTML += "<li>" + ingredienser[i] + "</li>";
     }
-
-    liste.style.display = "block";
+    
     knapp.style.visibility = "hidden";
 }
 
